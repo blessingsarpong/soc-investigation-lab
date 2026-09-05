@@ -1,27 +1,64 @@
 # SOC Investigation Lab
 
-Hands-on cybersecurity investigations focused on Windows security events,
-network activity, threat detection, and incident response.
+Hands-on cybersecurity investigations focused on Windows security, phishing, network activity, threat detection, and incident response.
 
-## Objectives
+## About This Repository
 
-- Investigate suspicious authentication activity
-- Analyze Windows event logs
-- Correlate processes and parent-child relationships
-- Investigate network connections and DNS activity
-- Identify indicators of compromise (IOCs)
-- Build incident timelines
-- Distinguish benign, suspicious, and malicious activity
-- Produce professional SOC investigation reports
+This repository contains controlled cybersecurity investigations created as part of my practical SOC analyst training.
+
+The investigations focus on analyzing security evidence, correlating events, identifying indicators of compromise, building timelines, and determining whether activity is benign, suspicious, or malicious.
 
 ## Investigations
 
-| Investigation | Focus | Status |
-|---|---|---|
-| Investigation 01 | Windows Security & Process Investigation | In progress |
+### Investigation 01 — Windows Security Alert
+
+**Focus:** Authentication, process analysis, PowerShell, network activity, malware detection, and incident response.
+
+The investigation follows a simulated attack chain involving password spraying, successful network authentication, PowerShell activity, payload delivery, and a known-malicious file hash.
+
+[View Investigation 01](investigation-01-windows-alert/investigation-report.md)
+
+### Investigation 02 — Phishing and Account Compromise
+
+**Focus:** Phishing analysis, credential harvesting, Microsoft 365 authentication, mailbox activity, and account compromise.
+
+The investigation follows a simulated phishing attack in which credentials were submitted to a fraudulent login page, followed by suspicious account access and an unauthorized external mailbox forwarding rule.
+
+[View Investigation 02](investigation-02-phishing-alert/phishing-investigation-report.md)
+
+## Skills Demonstrated
+
+- SOC alert triage
+- Windows security event analysis
+- Authentication investigation
+- Process and parent-child analysis
+- PowerShell investigation
+- Network and DNS analysis
+- Phishing analysis
+- Credential theft investigation
+- Account compromise investigation
+- IOC identification
+- Threat intelligence correlation
+- Incident timelines
+- Incident response and containment
+
+## Tools and Technologies
+
+- Windows Event Viewer
+- Windows Command Prompt
+- PowerShell
+- Nmap
+- Netstat
+- DNS tools
+- GitHub
+- Threat intelligence concepts
 
 ## Disclaimer
 
-All investigations in this repository are conducted in controlled
-learning environments or use clearly identified public/lab datasets.
-No confidential or unauthorized information is included.
+All investigations in this repository are controlled learning exercises or use clearly identified lab data.
+
+No confidential, private, or unauthorized information is included.
+
+## Goal
+
+To continuously develop practical skills for a career in Security Operations and defensive cybersecurity.
